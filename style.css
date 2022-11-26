@@ -5,3 +5,19 @@ html {
 	box-sizing: border-box;
 }
 
+.container {
+	display: grid;
+	grid-template-columns: 1.5fr 3fr 1fr;
+	width: 100vw;
+	height: 100vh;
+}
+
+.left-sidebar-container {
+	grid-row: span 2;
+	background-color: #3c99dc;
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
