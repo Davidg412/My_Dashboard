@@ -5,19 +5,73 @@ html {
 	box-sizing: border-box;
 }
 
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
 .container {
 	display: grid;
-	grid-template-columns: 1.5fr 3fr 1fr;
+	grid-template-columns: .75fr 3fr 1fr;
 	width: 100vw;
 	height: 100vh;
 }
 
+/*********************Left-sidebar*************************/
 .left-sidebar-container {
 	grid-row: span 2;
-	background-color: #3c99dc;
+	background-color: #1596f1;
 	color: white;
+	display: grid;
+}
+
+.dashboard {
+	display: grid;
+	grid-template-columns: 1fr 5.25fr;
+	margin-bottom: 3rem;
 }
 
 ul {
 	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	align-items: center;
+}
+
+.toplist {
+	grid-template-rows: repeat(6, 1fr);
+	margin-bottom: 3rem;
+}
+
+.bottomlist {
+	grid-template-rows: repeat(3, 1fr);
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+.fa-box {
+	display: inline-block;
+	font-size: 2.25rem;
+}
+
+.menu {
+	padding: 1rem;
+}
+
+
+li {
+	font-size: 1.25rem;
+	align-items: end;
+	margin-bottom: 1.5rem;
+	font-weight: 900;
+}
+
+i {
+	margin-bottom: 1.5rem;
+	font-weight: 900;
 }
