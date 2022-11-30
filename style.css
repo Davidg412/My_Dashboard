@@ -15,6 +15,7 @@ h1 {
 	grid-template-columns: .75fr 3fr 1fr;
 	width: 100vw;
 	height: 100vh;
+	grid-template-rows: 18fr 82fr;
 }
 
 /*********************Left-sidebar*************************/
@@ -29,6 +30,7 @@ h1 {
 	display: grid;
 	grid-template-columns: 1fr 5.25fr;
 	margin-bottom: 3rem;
+	margin-top: 1.5rem;
 }
 
 ul {
@@ -74,4 +76,59 @@ li {
 i {
 	margin-bottom: 1.5rem;
 	font-weight: 900;
+}
+
+
+/*********************Head of Page (Top)*************************/
+.head-container {
+	grid-column: 2 / 4;
+	display: grid;
+	margin-top: 1.5rem;
+}
+
+.head-top {
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+#query {
+	flex-grow: 1;
+	background-color: rgb(218, 217, 216);
+	border-radius: 1.5rem;
+	height: 2rem;
+}
+
+
+
+.fa-magnifying-glass, .fa-bell {
+	margin: 0;
+	padding: .50rem;
+}
+
+.fa-magnifying-glass {
+	margin-left: 3rem;
+	margin-right: 1rem;
+}
+
+.fa-bell {
+	margin-left: 10rem;
+	margin-right: 1rem;
+}
+
+.notification, .searchglass {
+	background-color: white;
+	justify-self: center;
+	border: none;
+	font-size: 1.5rem;
+}
+
+.nametag {
+	font-weight: 900;
+	font-size: 1.5rem;
+	margin-right: 7rem;
+}
+
+.coffelogo {
+	margin-right: 1.5rem;
 }
