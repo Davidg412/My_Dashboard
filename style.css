@@ -94,7 +94,7 @@ i {
 
 #query {
 	flex-grow: 1;
-	background-color: rgb(218, 217, 216);
+	background-color: rgb(234, 231, 228);
 	border-radius: 1.5rem;
 	height: 2rem;
 }
@@ -126,9 +126,97 @@ i {
 .nametag {
 	font-weight: 900;
 	font-size: 1.5rem;
-	margin-right: 7rem;
+	margin-right: 9rem;
 }
 
-.coffelogo {
+.coffelogomini {
 	margin-right: 1.5rem;
+}
+
+/*********************Head of Page (Bottom)*************************/
+.head-bottom {
+	display: flex;
+}
+
+.head-bottom > div {
+	display: flex;
+	flex-grow: 1;
+}
+
+.container-buttons > div {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.container-buttons > div > button {
+	background-color: #1596f1;
+	color: white;
+	border-radius: 1.25rem;
+	padding: .5rem 1.75rem;
+	border: none;
+}
+
+.container-buttons {
+	display: flex;
+	align-items: center;
+	margin-left: 10rem;
+}
+
+.button-holder {
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+}
+
+.greet-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 2rem;
+}
+
+div > p {
+	font-weight: 800;
+}
+
+.greeting {
+	margin-bottom: .10rem;
+}
+
+.username {
+	margin-top: .10rem;
+	font-size: 1.5rem;
+}
+
+.share-button {
+margin-right: 8.5rem;
+}
+
+.upload-button {
+	margin-right: 1.25rem;
+}
+
+.new-button {
+	margin-right: 1.25rem;
+}
+
+.coffelogolarge {
+	margin-left: 3.5rem;
+}
+
+
+
+
+
+/*********************Body of Page************************/
+.body-container {
+	background-color: rgb(234, 231, 228);
+}
+
+
+
+
+/*********************Right-Sidebar************************/
+.right-sidebar-container {
+	background-color: rgb(234, 231, 228);
 }
