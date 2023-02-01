@@ -4,4 +4,6 @@ While at this point in my software development journey I have also practiced CSS
 place and use cases. I did incorporate CSS Flexbox into this project as well, just to intertwine the two CSS layout modules
 on the same overall layout.
 
+Project Link: https://davidg412.github.io/My_Dashboard/
+
 ![image](https://user-images.githubusercontent.com/103713915/209180673-ff4e1ea2-cf86-465a-b28b-a0a4ff307509.png)
